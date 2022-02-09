@@ -19,7 +19,6 @@ public class JwtUtil {
 
     public static String createJWT(Map<String, Object> claims) {
 
-
         final long currentTimeMillis = System.currentTimeMillis();
         Date now = new Date(currentTimeMillis);
         return Jwts.builder()
