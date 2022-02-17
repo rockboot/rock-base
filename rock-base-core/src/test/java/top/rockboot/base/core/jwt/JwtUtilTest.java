@@ -1,4 +1,4 @@
-package rock.base.core.jwt;
+package top.rockboot.base.core.jwt;
 
 import io.jsonwebtoken.Claims;
 import org.junit.jupiter.api.Assertions;
